@@ -287,7 +287,7 @@ public class Medical {
 				System.out.println("Oops!!! \n Not a valid Choice");
 				break;
 			}
-			// add a clear Statement here
+			
 		} while (ch != 0);
 
 	}
@@ -319,7 +319,7 @@ public class Medical {
 				System.out.println("Oops!!! \n Not a valid Choice");
 				break;
 			}
-			// add a clear Statement here
+		
 		} while (ch != 0);
 
 	}
@@ -352,7 +352,7 @@ public class Medical {
 				System.out.println("Oops!!! \n Not a valid Choice");
 				break;
 			}
-			// Clear statement
+			
 		} while (ch != 0);
 
 	}
@@ -382,7 +382,7 @@ public class Medical {
 				System.out.println("Oops!!! \n Not a valid Choice");
 				break;
 			}
-			// Clear statement
+
 		} while (ch != 0);
 
 	}
@@ -430,7 +430,7 @@ public class Medical {
 						System.out.println("Oops!!! \n Not a valid Choice");
 						break;
 					}
-					// add a clear Statement here
+					
 				} while (c1 != 0);
 				break;
 			case 2:
@@ -460,7 +460,7 @@ public class Medical {
 						System.out.println("Oops!!! \n Not a valid Choice");
 						break;
 					}
-					// add a clear Statement here
+					
 				} while (c2 != 0);
 				break;
 			case 3:
@@ -490,7 +490,7 @@ public class Medical {
 						System.out.println("Oops!!! \n Not a valid Choice");
 						break;
 					}
-					// add a clear Statement here
+					
 				} while (c3 != 0);
 				break;
 			case 4:
@@ -500,7 +500,6 @@ public class Medical {
 				System.out.println("Oops!!! \n Not a valid Choice");
 				break;
 			}
-			// Clear statement
 		} while (ch != 0);
 
 	}
@@ -533,7 +532,7 @@ public class Medical {
 			System.out.println("No Data Found !!!!");
 			return;
 		}
-		System.out.println("\n*******************************************");
+		System.out.println("\n********************************************");
 		System.out.println("Patient id : " + rs2.getInt(1));
 		System.out.println("Name : " + rs2.getString(2));
 		System.out.println("ADDRESS : ");
@@ -574,7 +573,7 @@ public class Medical {
 			System.out.print(rs4.getString(1) + "     ");
 		}
 		System.out.println();
-		System.out.println("******************************************\n");
+		System.out.println("*******************************************\n");
 	}
 
 	// Completed
@@ -1378,7 +1377,7 @@ public class Medical {
 			} else if (ch == 2) {
 				stmt.executeUpdate("delete from patient_contact_no where p_contact_no=" + no);
 			} else if (ch != 0) {
-				System.out.println("Wrong Choice ......");
+				System.out.println("Oops!!! \n Not a valid Choice");
 			}
 		} while (ch != 0);
 		System.out.println("Contact No. Updated");
