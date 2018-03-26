@@ -32,4 +32,4 @@ open Eclipse
 add this project as a new project
 run the code
 ```
-This project was made by collectively by [Kavita Maurya](https://github.com/Kavita309) and [Mansi Breja](https://github.com/MansiBreja) as a part of the DBMS project in the 3rd Sem, NSIT,Delhi. 
+This project was made collectively by [Kavita Maurya](https://github.com/Kavita309) and [Mansi Breja](https://github.com/MansiBreja) as a part of the DBMS project in the 3rd Sem, NSIT,Delhi. 
